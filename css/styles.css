@@ -1840,7 +1840,8 @@ video {
 }
 
 :root {
-    --c-dark: #15171c;
+    /*--c-dark: #15171c;*/
+    --c-dark: #000000;
     --c-dark-rgb: 21, 23, 28;
     --c-dark-2: #050506;
     --c-dark-2-rgb: 5, 5, 6;
@@ -1856,7 +1857,8 @@ video {
     --c-green-rgb: 0, 167, 127;
     --c-grey: #8d8f94;
     --c-grey-rgb: 141, 143, 148;
-    --c-white: #fff;
+    /*--c-white: #fff;*/
+    --c-white: #E6E6E6;
     --c-white-rgb: 255, 255, 255;
     --c-grey-button: #292b30;
     --c-grey-button-rgb: 41, 43, 48;
