@@ -1592,8 +1592,8 @@ a.is-active {
 
 @font-face {
     font-family: Neusa Next Pro;
-    src: url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Medium.eot);
-    src: local("Neusa Next Pro Medium"), local("NeusaNextPro-Medium"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Medium.eot?#iefix) format("embedded-opentype"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Medium.woff2) format("woff2"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Medium.woff) format("woff");
+    src: url(../assets/fonts/NeusaNextPro-Medium.eot);
+    src: local("Neusa Next Pro Medium"), local("NeusaNextPro-Medium"), url(../assets/fonts/NeusaNextPro-Medium.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/NeusaNextPro-Medium.woff2) format("woff2"), url(../assets/fonts/NeusaNextPro-Medium.woff) format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -1601,8 +1601,8 @@ a.is-active {
 
 @font-face {
     font-family: Neusa Next Pro;
-    src: url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Regular.eot);
-    src: local("Neusa Next Pro Regular"), local("NeusaNextPro-Regular"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Regular.eot?#iefix) format("embedded-opentype"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Regular.woff2) format("woff2"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-Regular.woff) format("woff");
+    src: url(../assets/fonts/NeusaNextPro-Regular.eot);
+    src: local("Neusa Next Pro Regular"), local("NeusaNextPro-Regular"), url(../assets/fonts/NeusaNextPro-Regular.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/NeusaNextPro-Regular.woff2) format("woff2"), url(../assets/fonts/NeusaNextPro-Regular.woff) format("woff");
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -1610,8 +1610,8 @@ a.is-active {
 
 @font-face {
     font-family: Neusa Next Pro Condensed;
-    src: url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CondensedMedium.eot);
-    src: local("Neusa Next Pro Condensed Medium"), local("NeusaNextPro-CondensedMedium"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CondensedMedium.eot?#iefix) format("embedded-opentype"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CondensedMedium.woff2) format("woff2"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CondensedMedium.woff) format("woff");
+    src: url(../assets/fonts/NeusaNextPro-CondensedMedium.eot);
+    src: local("Neusa Next Pro Condensed Medium"), local("NeusaNextPro-CondensedMedium"), url(../assets/fonts/NeusaNextPro-CondensedMedium.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/NeusaNextPro-CondensedMedium.woff2) format("woff2"), url(../assets/fonts/NeusaNextPro-CondensedMedium.woff) format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -1619,8 +1619,8 @@ a.is-active {
 
 @font-face {
     font-family: Neusa Next Pro Compact;
-    src: url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CompactMedium.eot);
-    src: local("Neusa Next Pro Compact Medium"), local("NeusaNextPro-CompactMedium"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CompactMedium.eot?#iefix) format("embedded-opentype"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CompactMedium.woff2) format("woff2"), url(/hubfs/intechnic_2024/assets/fonts/neusa-next-pro/NeusaNextPro-CompactMedium.woff) format("woff");
+    src: url(../assets/fonts/NeusaNextPro-CompactMedium.eot);
+    src: local("Neusa Next Pro Compact Medium"), local("NeusaNextPro-CompactMedium"), url(../assets/fonts/NeusaNextPro-CompactMedium.eot?#iefix) format("embedded-opentype"), url(../assets/fonts/NeusaNextPro-CompactMedium.woff2) format("woff2"), url(../assets/fonts/NeusaNextPro-CompactMedium.woff) format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -4633,7 +4633,7 @@ textarea[disabled]+.form-label {
     position: absolute;
     left: -1px;
     top: -1px;
-    background: url(/hubfs/intechnic_2024/assets/images/common/checkbox.svg);
+    background: url(../assets/images/common/checkbox.svg);
     background-size: cover;
     transition-property: opacity;
     opacity: 0
@@ -13039,8 +13039,8 @@ video.background--cover {
     }
 
     .intro__mask-inner {
-        -webkit-mask-image: url(/hubfs/intechnic_2024/assets/images/landing/1.intro/mask-square.svg);
-        mask-image: url(/hubfs/intechnic_2024/assets/images/landing/1.intro/mask-square.svg);
+        -webkit-mask-image: url(../assets/images/landing/1.intro/mask-square.svg);
+        mask-image: url(../assets/images/landing/1.intro/mask-square.svg);
         -webkit-mask-size: 100% 100%;
         mask-size: 100% 100%;
         -webkit-mask-repeat: no-repeat;
@@ -13722,8 +13722,8 @@ video.background--cover {
     top: 0;
     width: calc(var(--scale-px) * 21);
     height: 100%;
-    -webkit-mask-image: url(/hubfs/intechnic_2024/assets/images/landing/4.process/process-tab-triangle.svg);
-    mask-image: url(/hubfs/intechnic_2024/assets/images/landing/4.process/process-tab-triangle.svg);
+    -webkit-mask-image: url(../assets/images/landing/4.process/process-tab-triangle.svg);
+    mask-image: url(../assets/images/landing/4.process/process-tab-triangle.svg);
     -webkit-mask-size: calc(var(--scale-px) * 21) 100%;
     mask-size: calc(var(--scale-px) * 21) 100%;
     -webkit-mask-repeat: no-repeat;
