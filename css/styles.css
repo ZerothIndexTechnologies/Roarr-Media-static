@@ -12930,8 +12930,8 @@ video.background--cover {
 }
 
 .intro__background {
-    -webkit-mask-image: url(/hubfs/intechnic_2024/assets/images/landing/1.intro/mask-xs.svg);
-    mask-image: url(/hubfs/intechnic_2024/assets/images/landing/1.intro/mask-xs.svg);
+    -webkit-mask-image: url(../assets/images/landing/1.intro/mask-xs.svg);
+    mask-image: url(../assets/images/landing/1.intro/mask-xs.svg);
     -webkit-mask-size: contain;
     mask-size: contain;
     -webkit-mask-repeat: no-repeat;

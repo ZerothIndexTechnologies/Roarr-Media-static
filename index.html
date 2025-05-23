@@ -281,20 +281,34 @@
                                     </svg></span></a>
                         </div>
                         <div class="group__right group group--middle is-hidden--sm-down" data-plugin="accordionAnchors">
+
+                            <a class="btn btn--link btn--link-heading" href="#home-section">
+                                <span class="btn__content"><span
+                                        class="btn__text">Home</span></span>
+                            </a>
+
+                            <a class="btn btn--link btn--link-heading" href="#about-section">
+                                <span class="btn__content"><span
+                                        class="btn__text">About</span></span>
+                            </a>
+
                             <a class="btn btn--link btn--link-heading" data-accordion-anchors-url="ux-research"
-                                tabindex="0" role="button"><span class="btn__content"><span class="btn__text">UX
-                                        Research</span> </span></a><a class="btn btn--link btn--link-heading"
-                                data-accordion-anchors-url="ux-strategy" tabindex="0" role="button"><span
-                                    class="btn__content"><span class="btn__text">UX Strategy</span> </span></a><a
-                                class="btn btn--link btn--link-heading" data-accordion-anchors-url="ux-design"
-                                tabindex="0" role="button"><span class="btn__content"><span class="btn__text">UX
-                                        Design</span> </span></a><a class="btn btn--link btn--link-heading"
-                                data-accordion-anchors-url="ux-support" tabindex="0" role="button"><span
-                                    class="btn__content"><span class="btn__text">UX Support</span> </span></a><a
-                                class="btn btn--link btn--link-heading" href="#/blog"><span
-                                    class="btn__content"><span class="btn__text">Insights</span> </span></a><a
-                                class="btn btn--link btn--link-heading" href="#contact"><span class="btn__content"><span
-                                        class="btn__text">Contact</span></span></a>
+                                role="button" tabindex="0"><span class="btn__content"><span class="btn__text">Services
+                                        </span> </span>
+                            </a>
+
+                            <a class="btn btn--link btn--link-heading" href="#blog-section"><span
+                                    class="btn__content"><span class="btn__text">Works</span> </span>
+                            </a>
+
+                            <a class="btn btn--link btn--link-heading" href="#blog-section"><span
+                                    class="btn__content"><span class="btn__text">Insights</span> </span>
+                            </a>
+
+                            <a class="btn btn--link btn--link-heading" href="#footer-section">
+                                <span class="btn__content"><span
+                                        class="btn__text">Contact</span></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -307,7 +321,7 @@
         <div class="page-content js-page-content">
             <main>
                 <!-- Begin partial -->
-                <section class="section section--top ui-dark intro" data-scroll-section="" data-plugin="reveal"
+                <section id="home-section" class="section section--top ui-dark intro" data-scroll-section="" data-plugin="reveal"
                     id="intro-top" data-scroll-section-id="section0"
                     style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1, 0, 1); opacity: 1; pointer-events: all;"
                     data-scroll-section-inview="">
@@ -2719,7 +2733,7 @@
                         </svg>
                     </a>
                 </section>
-                <section class="section ui-light ui-background challenges" data-scroll-section=""
+                <section id="about-section" class="section ui-light ui-background challenges" data-scroll-section=""
                     data-static-theme="ui-light" data-plugin="reveal" data-scroll-section-id="section1"
                     style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1, 0, 1); opacity: 1; pointer-events: all;"
                     data-scroll-section-inview="">
@@ -3971,7 +3985,7 @@
                     style="opacity: 0; pointer-events: none; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
 
                 </section>
-                <section class="section ui-light ui-background accomplishments" data-scroll-section=""
+                <section class="section ui-light ui-background accomplishments" id="blog-section" data-scroll-section=""
                     data-static-theme="ui-light" data-plugin="reveal" data-scroll-section-id="section8"
                     style="opacity: 0; pointer-events: none; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
                     <div class="container-h container-v px-1 pb-1.5 pb-3:md">
@@ -4441,7 +4455,7 @@
             <!-- Begin partial -->
 
             <footer class="section section--top section--no-overflow ui-dark footer is-hidden--print"
-                data-scroll-section="" data-scroll-section-id="section10"
+                data-scroll-section="" data-scroll-section-id="section10" id="footer-section"
                 style="opacity: 0; pointer-events: none; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">
                 <div class="container-h pb-2 pb-1:md px-1:md pt-1 pt-1:md">
                     <div class="footer__top__layout mb-2">
@@ -4674,34 +4688,37 @@
                                 <div class="container-h pt-1 pb-2 px-1:md">
                                     <ol class="menu-list" data-plugin="accordionAnchors"
                                         data-accordion-anchors-is-inside-modal="true">
+
                                         <li class="menu-list__item"><a
                                                 class="btn btn--link btn--link-heading btn--link-fit"
                                                 data-accordion-anchors-url="ux-research" tabindex="0"
-                                                role="button"><span class="btn__content"><span class="btn__text">UX
-                                                        Research</span></span></a></li>
+                                                role="button"><span class="btn__content"><span class="btn__text">Home</span></span></a></li>
+
+                                        <li class="menu-list__item"><a
+                                                class="btn btn--link btn--link-heading btn--link-fit"
+                                                href="#about-section"><span class="btn__content"><span
+                                                class="btn__text">About</span></span></a>
+                                        </li>
+
                                         <li class="menu-list__item"><a
                                                 class="btn btn--link btn--link-heading btn--link-fit"
                                                 data-accordion-anchors-url="ux-strategy" tabindex="0"
-                                                role="button"><span class="btn__content"><span class="btn__text">UX
-                                                        Strategy</span></span></a></li>
+                                                role="button"><span class="btn__content"><span class="btn__text">Services</span></span></a></li>
+
                                         <li class="menu-list__item"><a
                                                 class="btn btn--link btn--link-heading btn--link-fit"
-                                                data-accordion-anchors-url="ux-design" tabindex="0" role="button"><span
-                                                    class="btn__content"><span class="btn__text">UX
-                                                        Design</span></span></a></li>
+                                                href="#blog-section"><span class="btn__content"><span
+                                                class="btn__text">Works</span></span></a>
+                                        </li>
+
                                         <li class="menu-list__item"><a
                                                 class="btn btn--link btn--link-heading btn--link-fit"
-                                                data-accordion-anchors-url="ux-support" tabindex="0" role="button"><span
-                                                    class="btn__content"><span class="btn__text">UX
-                                                        Support</span></span></a></li>
-                                        <li class="menu-list__item"><a
-                                                class="btn btn--link btn--link-heading btn--link-fit"
-                                                href="#/blog"><span class="btn__content"><span
+                                                href="#blog-section"><span class="btn__content"><span
                                                         class="btn__text">Insights</span></span></a>
                                         </li>
                                         <li class="menu-list__item"><a
                                                 class="btn btn--link btn--link-heading btn--link-fit"
-                                                href="#contact"><span class="btn__content"><span
+                                                href="#footer-section"><span class="btn__content"><span
                                                         class="btn__text">Contact</span></span></a></li>
                                     </ol>
                                     <a class="btn btn--primary btn--md btn--full mt-1" href="#contact"><span
