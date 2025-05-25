@@ -1849,7 +1849,8 @@ video {
     --c-black-rgb: 0, 0, 0;
     --c-orange: #f86800;
     --c-orange-rgb: 248, 104, 0;
-    --c-red: #cf1839;
+    /*--c-red: #cf1839;*/
+    --c-red: #8e7d51;
     --c-red-rgb: 207, 24, 57;
     --c-blue: #2152ff;
     --c-blue-rgb: 33, 82, 255;
