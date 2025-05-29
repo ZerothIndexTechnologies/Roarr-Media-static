@@ -451,3 +451,17 @@ a:hover {
 .item.work-box:hover .pr__image__cover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
+/* Responsive: show one by one on mobile */
+@media (max-width: 639px) {
+    .works-filter {
+        display: flex !important;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .works-filter .item {
+        width: 100% !important;
+        max-width: 100%;
+    }
+}
